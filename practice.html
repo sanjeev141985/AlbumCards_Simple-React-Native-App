@@ -1,0 +1,37 @@
+<html>
+<body>
+
+<p>Click "Try it" to call a function with arguments</p>
+
+<button onclick="myFunction('Harry Potter','Wizard')">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction(name,job) {
+    var x = 10 ;
+    var y = ' Sanjeev Sharma';
+    let z = 20;
+    var person = {'name': 'Sanjeev', 'Surname': 'Sharma', 'Hobby': 'Learning JS'}
+    
+    if (y) {
+    z = 50;
+    }
+    
+    alert (z)
+    alert (x)
+    
+    
+    var arrObj = ['Sanjeev', 'Harshit', 'Vijay', 'Tushar']
+    arrObj.push('Mudit')
+    arrObj.push('10')
+    arrObj.pop()
+    
+    const me = Object.create(person);
+    
+    alert(arrObj);
+}
+</script>
+
+</body>
+</html>
